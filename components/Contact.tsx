@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <>
+    <div className="bg-white">
       <p className="text-[#2B5C42] font-extralight text-[25px] text-center">
         Interested in chatting? Email us at{' '}
         <a href="mailto:terraubc@gmail.com" className="font-semibold no-underline text-[#2B5C42]">
@@ -13,6 +13,6 @@ export default function Contact() {
           CONTACT
         </button>
       </a>
-    </>
+    </div>
   );
 }

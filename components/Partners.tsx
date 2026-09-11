@@ -19,8 +19,9 @@ export default function Partners() {
       <h2 className="text-[35px] text-[#2B5C42] font-semibold mb-[60px]">
         We Work With...
       </h2>
-      <div className="flex overflow-hidden whitespace-nowrap">
-        <div className="inline-flex animate-scroll">
+
+      <div className="overflow-hidden">
+        <div className="flex w-max animate-scroll">
           {allPartners.map((partner, i) => (
             <Image
               key={i}
@@ -28,7 +29,7 @@ export default function Partners() {
               alt={partner.alt}
               width={200}
               height={70}
-              className="max-h-[70px] w-auto mr-[70px] shrink-0 object-contain"
+              className="h-[70px] w-auto mr-[70px] shrink-0 object-contain"
             />
           ))}
         </div>
