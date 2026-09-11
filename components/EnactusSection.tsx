@@ -11,7 +11,7 @@ export default function EnactusSection() {
 
         <div className="flex-[1_1_50%] max-w-[50%] pr-[35px]">
           <Image
-            src="/assets/enactusPhoto.png"
+            src="/assets/regional.png"
             alt="Enactus UBC Team"
             width={600}
             height={400}
