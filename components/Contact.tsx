@@ -8,7 +8,7 @@ export default function Contact() {
         </a>
       </p>
 
-      <a href="mailto:terraubc@gmail.com" className="no-underline">
+      <a href="/Contact" className="no-underline">
         <button className="px-[35px] py-[25px] border border-[#2B5C42] rounded-[5px] cursor-pointer text-[#2B5C42] bg-white text-center block mx-auto mt-[35px] text-[30px] font-[inherit] transition-all duration-300 hover:bg-[#2B5C42] hover:text-white">
           CONTACT
         </button>

@@ -42,7 +42,7 @@ export default function Navbar() {
             PARTNERS
           </Link>
 
-          <a href="mailto:terraubc@gmail.com">
+          <a href="/Contact">
             <button
               className={`px-5 py-[15px] bg-transparent border rounded-[5px] cursor-pointer transition-all duration-300 font-[Montserrat] ${
                 scrolled
