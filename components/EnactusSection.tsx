@@ -27,7 +27,7 @@ export default function EnactusSection() {
             on youth empowerment, sustainability, and community-building.
           </p>
 
-          <h2 className="text-[#2B5C42] my-[10px] text-[25px] font-bold">What about Enactus UBC?</h2>
+          <h2 className="text-[#2B5C42] my-2.5 text-[25px] font-bold">What about Enactus UBC?</h2>
           <p className="text-[#2B5C42] font-extralight text-[18px]">
             Enactus UBC is home to a team of over 100 undergraduate students who collaborate to
             create new and unique projects that serve our campus and community. Learn more on our{' '}
