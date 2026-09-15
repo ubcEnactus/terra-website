@@ -11,7 +11,6 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Terra UBC",
   description: "A student-run pro-bono sustainability consulting group",
-  icons: { icon: "/assets/terraIcon.png" },
 };
 
 export default function RootLayout({
