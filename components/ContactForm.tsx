@@ -1,3 +1,5 @@
+// TO DO: Connect web3form to terraubc email for free auto-directing
+
 "use client";
 
 import { useState } from "react";

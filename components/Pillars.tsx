@@ -20,10 +20,10 @@ function PillarCard({ pillar }: { pillar: typeof pillars[0] }) {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <h3 className="text-white pt-[35px] ml-[5%] text-[50px]">
+      <h3 className="text-white pt-[18px] sm:pt-[26px] md:pt-[35px] ml-[5%] text-[28px] sm:text-[38px] md:text-[50px]">
         {pillar.title}
       </h3>
-      <p className="text-white ml-[5%] mt-[5px] max-w-[80%]">
+      <p className="text-white ml-[5%] mt-[5px] max-w-[80%] text-[13px] sm:text-sm md:text-base">
         {pillar.text}
       </p>
     </div>

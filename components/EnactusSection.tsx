@@ -7,9 +7,9 @@ export default function EnactusSection() {
         About Enactus UBC
       </h2>
 
-      <div className="bg-white px-[10%] py-[20px] flex flex-nowrap justify-center items-start">
+      <div className="bg-white px-[10%] py-[20px] flex flex-col md:flex-nowrap md:flex-row justify-center items-start gap-6 md:gap-0">
 
-        <div className="flex-[1_1_50%] max-w-[50%] pr-[35px]">
+        <div className="w-full md:flex-[1_1_50%] md:max-w-[50%] md:pr-[35px]">
           <Image
             src="/assets/regional.png"
             alt="Enactus UBC Team"
@@ -19,7 +19,7 @@ export default function EnactusSection() {
           />
         </div>
 
-        <div className="flex-[1_1_50%] max-w-[50%] p-[10px]">
+        <div className="w-full md:flex-[1_1_50%] md:max-w-[50%] p-[10px]">
           <h2 className="text-[#2B5C42] my-[10px] text-[25px] font-bold">What is Enactus?</h2>
           <p className="text-[#2B5C42] font-extralight text-[18px]">
             Enactus is a global, student-led organization dedicated to enacting positive social

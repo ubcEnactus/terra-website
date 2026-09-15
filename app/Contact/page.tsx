@@ -2,7 +2,7 @@ import ContactForm from "@/components/ContactForm";
 
 export default function Contact() {
   return (
-    <main className="min-h-screen bg-[#F7F8F4] px-6 py-20">
+    <main className="min-h-screen bg-[#F7F8F4] px-6 py-12 md:py-20">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-16">
         <section className="max-w-3xl">
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-[#4F725B]">

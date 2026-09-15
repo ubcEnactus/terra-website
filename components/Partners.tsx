@@ -29,7 +29,7 @@ export default function Partners() {
               alt={partner.alt}
               width={200}
               height={70}
-              className="h-[70px] w-auto mr-[70px] shrink-0 object-contain"
+              className="h-[50px] mr-[40px] sm:h-[60px] sm:mr-[55px] md:h-[70px] md:mr-[70px] w-auto shrink-0 object-contain"
             />
           ))}
         </div>
