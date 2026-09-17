@@ -5,7 +5,7 @@ import { useState } from 'react';
 const pillars = [
   { title: 'DIVERT', text: 'EVERY WEEK, WE RESCUE PRE-CONSUMER FOOD WASTE FROM CAMPUS DINING HALLS', image: '/assets/divert.jpg' },
   { title: 'TRANSFORM', text: 'WE TURN FOOD WASTE INTO NUTRIENT-RICH SLOW-RELEASE FERTILIZER PODS: BLOOM PODS', image: '/assets/transform.png' },
-  { title: 'GROW', text: 'WE HELP OUR COMMUNITY GROW HEALTHIER PLANTS AND GARDENS', image: '/assets/grow.jpg', position: 'center 55%' },
+  { title: 'GROW', text: 'WE HELP OUR COMMUNITY GROW HEALTHIER PLANTS AND GARDENS', image: '/assets/grow.jpg', position: 'center 55%', overlay: true },
 ];
 
 function PillarCard({ pillar }: { pillar: typeof pillars[0] }) {
@@ -16,7 +16,12 @@ function PillarCard({ pillar }: { pillar: typeof pillars[0] }) {
       className={`w-[95%] rounded-[10px] my-6.25 cursor-pointer bg-cover transition-all duration-300 overflow-hidden ${
         hovered ? 'h-50' : 'h-37.5'
       }`}
-      style={{ backgroundImage: `url('${pillar.image}')`, backgroundPosition: pillar.position ?? 'center' }}
+      style={{
+        backgroundImage: pillar.overlay
+          ? `linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('${pillar.image}')`
+          : `url('${pillar.image}')`,
+        backgroundPosition: pillar.position ?? 'center',
+      }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
